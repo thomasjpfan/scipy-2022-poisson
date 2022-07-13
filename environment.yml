@@ -1,0 +1,14 @@
+name: scipy-2022-poisson
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyterlab
+  - pandas=1.4
+  - scikit-learn=1.1
+  - numpy=1.22
+  - seaborn=0.11.2
+  - tabulate
+  - pip
+  - pip:
+    - scikit-lego==0.6.12
